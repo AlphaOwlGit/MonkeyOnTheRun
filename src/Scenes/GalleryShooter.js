@@ -115,7 +115,7 @@ class GalleryShooter extends Phaser.Scene {
 
         my.sprite.ufo = this.add.sprite(-10, 750, "ship");
         my.sprite.ufo.visible = false;
-        my.sprite.ufobeam = this.add.sprite(-10, 875, "alienLaser");
+        my.sprite.ufobeam = this.add.sprite(-100, 875, "alienLaser");
         my.sprite.ufobeam.visible = false;
         my.sprite.ufoCapture = this.add.sprite(my.sprite.monkey.x, my.sprite.monkey.y, "ufoCapture");
         my.sprite.ufoCapture.visible = false;
