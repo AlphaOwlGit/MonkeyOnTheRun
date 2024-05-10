@@ -50,29 +50,30 @@ class ControlCredits extends Phaser.Scene {
         my.text.LeftArrowText = this.add.bitmapText(50, 150, "rocketSquare", "Left Arrow: Move Crosshair Left");
         my.text.RightArrowText = this.add.bitmapText(50, 175, "rocketSquare", "Right Arrow: Move Right Right");
         my.text.SpaceText = this.add.bitmapText(50, 200, "rocketSquare", "Space: Fire");
-        my.text.StartText = this.add.bitmapText(50, 225, "rocketSquare", "(Start Game on Title Screen)");
+        my.text.StartText = this.add.bitmapText(50, 225, "rocketSquare", "S: Start Game (Title Screen Only)");
         my.text.RText = this.add.bitmapText(50, 250, "rocketSquare", "R: Restart (Endgame Only)");
         my.text.CText = this.add.bitmapText(50, 275, "rocketSquare", "C: Credits (Title Screen Only)");
 
-        my.text.Rules = this.add.bitmapText(50, 300, "rocketSquare", "Rules:");
-        my.text.Rules1 = this.add.bitmapText(50, 325, "rocketSquare", "Kill all the crocodiles");
-        my.text.Rules2 = this.add.bitmapText(50, 350, "rocketSquare", "Before they kill you or");
-        my.text.Rules3 = this.add.bitmapText(50, 375, "rocketSquare", "reach the bottom. Use");
-        my.text.Rules4 = this.add.bitmapText(50, 400, "rocketSquare", "your laser at the top of the");
-        my.text.Rules5 = this.add.bitmapText(50, 425, "rocketSquare", "screen to kill your foes. Avoid");
-        my.text.Rules6 = this.add.bitmapText(50, 450, "rocketSquare", "getting hit by their sneeze,");
-        my.text.Rules7 = this.add.bitmapText(50, 475, "rocketSquare", "the UFO, or even your laser.");
-        my.text.Rules8 = this.add.bitmapText(50, 500, "rocketSquare", "You lose once you lose all your");
-        my.text.Rules9 = this.add.bitmapText(50, 525, "rocketSquare", "hearts or once the crocs reach");
-        my.text.Rules9 = this.add.bitmapText(50, 550, "rocketSquare", "the bottom.");
+        my.text.Rules = this.add.bitmapText(50, 350, "rocketSquare", "Rules:");
+        my.text.Rules1 = this.add.bitmapText(50, 375, "rocketSquare", "Kill all the crocodiles");
+        my.text.Rules2 = this.add.bitmapText(50, 400, "rocketSquare", "Before they kill you or");
+        my.text.Rules3 = this.add.bitmapText(50, 425, "rocketSquare", "reach the bottom. Use");
+        my.text.Rules4 = this.add.bitmapText(50, 450, "rocketSquare", "your laser at the top of the");
+        my.text.Rules5 = this.add.bitmapText(50, 475, "rocketSquare", "screen to kill your foes. Avoid");
+        my.text.Rules6 = this.add.bitmapText(50, 500, "rocketSquare", "getting hit by their sneeze,");
+        my.text.Rules7 = this.add.bitmapText(50, 525, "rocketSquare", "the UFO, or even your laser.");
+        my.text.Rules8 = this.add.bitmapText(50, 550, "rocketSquare", "You lose once you lose all your");
+        my.text.Rules9 = this.add.bitmapText(50, 575, "rocketSquare", "hearts or once the crocs reach");
+        my.text.Rules9 = this.add.bitmapText(50, 600, "rocketSquare", "the bottom.");
 
-        my.text.Credit = this.add.bitmapText(50, 600, "rocketSquare", "Credits");
-        my.text.Credit = this.add.bitmapText(50, 625, "rocketSquare", "Created by Garrett Yu");
-        my.text.Credit2 = this.add.bitmapText(50, 650, "rocketSquare", "Thanks to Kenny's Assets");
+        my.text.Credit = this.add.bitmapText(50, 650, "rocketSquare", "Credits");
+        my.text.Credit = this.add.bitmapText(50, 675, "rocketSquare", "Created by Garrett Yu");
+        my.text.Credit2 = this.add.bitmapText(50, 700, "rocketSquare", "Created for CMPM 120");
+        my.text.Credit3 = this.add.bitmapText(50, 725, "rocketSquare", "Thanks to Kenny's Assets");
 
 
 
-        my.text.Return = this.add.bitmapText(50, 900, "rocketSquare", "Press 'T' for Title Screen");
+        my.text.Return = this.add.bitmapText(50, 800, "rocketSquare", "Press 'T' for Title Screen");
 
         // update HTML description
         document.getElementById('description').innerHTML = '<h2>ControlCredits.js</h2><br>T: Return to Title Screen'

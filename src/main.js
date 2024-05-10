@@ -1,10 +1,8 @@
-// Jim Whitehead
-// Created: 4/25/2024
+// Garrett Yu
+// Created: 5/10/2024
 // Phaser: 3.70.0
 //
-// Bullet Time
-//
-// Multiple examples of how to implement bullet firing logic using Phaser
+// Monkey On The Run
 // 
 // Art assets from Kenny Assets:
 // https://kenney.nl/assets/

@@ -22,7 +22,6 @@ class GalleryShooter extends Phaser.Scene {
 
         // enemies
         this.load.image("crocodile", "crocodile.png");
-        this.load.image("duck", "duck.png");
         this.load.image("ship", "shipGreen_manned.png");
 
         // For animation
@@ -149,7 +148,7 @@ class GalleryShooter extends Phaser.Scene {
         this.bulletSpeed = 8;
 
         // update HTML description
-        document.getElementById('description').innerHTML = '<h2>Monkey Blast.js</h2><br>A: left // D: right // Space: fire/emit'
+        document.getElementById('description').innerHTML = '<h2>Monkey On The Run.js</h2><br>A: move monkey left // D: move monkey right // Left Arrow: move crosshair left // Right Arrow: move crosshair right // Space: fire laser from crosshair // T: Title // R: Restart'
     }
 
     update() {
